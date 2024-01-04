@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    margin-top: 120px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#left{
+  
+    width: 40%;
+    height: 80%;
+    margin-left:  100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#right{
+    
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 30px;
+  
+}
+#heading h1{
+    font-size: 90px;
+    line-height: 88px;
+    font-weight: 570;
+    color: rgba(0, 0, 0, 0.749);
+    
+}
+#clr{
+    border-radius: 200px;
+    border: 1.9px solid black;
+    width: fit-content;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 2px;
+}
+#clr1{
+    background-color: antiquewhite;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+#clr2{
+    background-color: rgb(126, 74, 6);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+#details h1{
+    font-weight: 300;
+    font-size: 27px;
+    padding: 20px 0 5px 0;
+
+
+}
+#details p{
+    line-height: 25px;
+    margin-bottom: 27px;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 65px;
+}
+#top h2{
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    
+}
+#top  h2 i{
+    font-size: 18px;
+    padding: 0.2px;
+    
+}
+#top h1{
+    font-size: 20px;
+    font-weight: 300;
+}
+#img{
+    width: 70%;
+    background: black;
+    height: 80%;
+    margin: 10px 50px;
+    background: url(https://images.unsplash.com/photo-1622445273410-dfbb295f0b4b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#side h2{
+    rotate: -90deg;
+    margin-left: -95%;
+    margin-top: -120%;
+}
